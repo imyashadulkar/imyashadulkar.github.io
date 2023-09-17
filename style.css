@@ -1,39 +1,71 @@
-.MainPage_content{
-    max-width: 95%;
+.MainPage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+}
+
+
+.MainPage_content {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    max-width: 850px;
     margin: auto;
-    padding: 30px 0;
+    
     color: #4a4a4a;
 }
 
-.MainPage{
-    width: 100%;
-    height: max-content;
-}
-
-.MainPage .MainPage_content p {
-    line-height: normal;
-    font-family: JetBrainsMono-Light;
-    font-size: small;
-    text-align: justify;
-    font-weight: 100;
-}
-
-.MainPage .MainPage_content ol h3 {
+.MainPage .MainPage_content h2{
     color: #000;
-    font-family: JetBrainsMono-Medium;
+    font-size: 40px;
+}
+
+.MainPage .MainPage_content h4{
+    color: #000;
     font-size: 21px;
 }
 
-.MainPage .MainPage_content h2 {
-    color: #000;
-    font-family: JetBrainsMono-Medium;
-    font-size: 25px;
-}
 
 .MainPage .MainPage_content p {
-    line-height: normal;
-    font-family: JetBrainsMono-Light;
+
+    line-height: 2;
     font-size: small;
     text-align: justify;
-    font-weight: 100;
+    font-weight: 900;
+    
+}
+
+.MainPage .MainPage_content  h3 {
+    color: #000;
+
+    font-size: 30px;
+}
+
+.MainPage .MainPage_content ol li {
+    list-style: outside;
+    line-height: 2;
+    font-size: small;
+    text-align: justify;
+    font-weight: 700;
+}
+
+.MainPage .MainPage_content a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.MainPage .MainPage_content .MainPage_enquiresContext__cpAyO a{
+   text-decoration: underline;
+    color: blue;
+}
+
+
+@media screen and (max-width: 960px) {
+    .MainPage .MainPage_content {
+      
+        width: 95%;
+    }
+
+    
 }
