@@ -45,7 +45,7 @@
 .MainPage .MainPage_content ol li {
     list-style: outside;
     line-height: 2;
-    font-size: small;
+    font-size: medium;
     text-align: justify;
     font-weight: 700;
 }
