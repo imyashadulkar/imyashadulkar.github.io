@@ -1,0 +1,39 @@
+.MainPage_content{
+    max-width: 95%;
+    margin: auto;
+    padding: 30px 0;
+    color: #4a4a4a;
+}
+
+.MainPage{
+    width: 100%;
+    height: max-content;
+}
+
+.MainPage .MainPage_content p {
+    line-height: normal;
+    font-family: JetBrainsMono-Light;
+    font-size: small;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.MainPage .MainPage_content ol h3 {
+    color: #000;
+    font-family: JetBrainsMono-Medium;
+    font-size: 21px;
+}
+
+.MainPage .MainPage_content h2 {
+    color: #000;
+    font-family: JetBrainsMono-Medium;
+    font-size: 25px;
+}
+
+.MainPage .MainPage_content p {
+    line-height: normal;
+    font-family: JetBrainsMono-Light;
+    font-size: small;
+    text-align: justify;
+    font-weight: 100;
+}
