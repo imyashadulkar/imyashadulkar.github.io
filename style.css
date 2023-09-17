@@ -17,8 +17,10 @@
 
 .MainPage .MainPage_content .MainPage_Heading {
   display: flex;
-  align-items: center;
-  margin: 20px;
+  align-items: start;
+  flex-direction: column;
+  justify-items: start;
+  /* margin: 20px; */
 }
 
 .MainPage .MainPage_content .MainPage_Heading .circle {
